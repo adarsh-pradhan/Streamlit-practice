@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.write("""
 # Finding the largest number
 """)
@@ -18,4 +17,5 @@ def user_input_features():
 
 nums = user_input_features()
 
-st.subheader("The largest of the above three numbers is: ", max(nums))
+st.subheader("The largest of the above three numbers is: ")
+st.write(max(nums))
